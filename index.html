@@ -1243,13 +1243,12 @@ pre[class*="language-"] {
   border-bottom: 2px dotted black;
 }
 
-
 /*# sourceURL=webpack://./src/muya/lib/assets/styles/exportStyle.css */
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9tdXlhL2xpYi9hc3NldHMvc3R5bGVzL2V4cG9ydFN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLFNBQVM7RUFDVCxVQUFVO0VBQ1YscUJBQXFCO0FBQ3ZCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOztBQUVBOzs7RUFHRSwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7QUFDQTtFQUNFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxPQUFPO0VBQ1AsY0FBYztFQUNkLGNBQWM7RUFDZCwrQkFBK0I7QUFDakMiLCJzb3VyY2VSb290IjoiIn0= */</style>
   <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
 </head>
 <body>
-  <article class="markdown-body"><h1 class="atx" id="神经网络学习指南">神经网络学习指南</h1>
+  <article class="markdown-body"><h1 class="atx" id="神经网络学习大纲">神经网络学习大纲</h1>
 <h2 class="atx" id="1-感知机与神经网络">1. 感知机与神经网络</h2>
 <h3 class="atx" id="感知机（perceptron）">感知机（Perceptron）</h3>
 <p>▶️ 推荐视频：</p>
@@ -1276,6 +1275,12 @@ pre[class*="language-"] {
 <li>使用<strong>非线性激活函数</strong>（Sigmoid、Tanh、ReLU 等），使得网络能够拟合非线性函数。</li>
 <li>引入<strong>隐藏层</strong>，增强表达能力。</li>
 <li>通过<strong>误差反向传播</strong>进行训练。</li>
+</ul>
+<p><strong>🎨 可视化学习资源</strong></p>
+<ul>
+<li><p>TensorFlow Playground：在线模拟神经网络训练</p>
+<p><a href="https://playground.tensorflow.org/">https://playground.tensorflow.org/</a></p>
+</li>
 </ul>
 <hr>
 <h2 class="atx" id="2-梯度下降（gradient-descent）">2. 梯度下降（Gradient Descent）</h2>
@@ -1339,6 +1344,15 @@ pre[class*="language-"] {
 <li><strong>池化层</strong></li>
 <li><strong>全连接层</strong></li>
 </ol>
+<p><strong>🎨 可视化学习资源</strong></p>
+<ul>
+<li><p>CNN Explainer：交互式可视化卷积 / 池化全过程</p>
+<p><a href="https://poloclub.github.io/cnn-explainer/">CNN Explainer</a></p>
+</li>
+<li><p>CNN分类手写数字 可视化工具</p>
+<p><a href="https://adamharley.com/nn_vis/cnn/3d.html">CNN分类手写数字可视化</a></p>
+</li>
+</ul>
 <hr>
 <h2 class="atx" id="6-常用层的原理与计算">6. 常用层的原理与计算</h2>
 <h3 class="atx" id="卷积层（convolutional-layer）">卷积层（Convolutional Layer）</h3>
@@ -1393,9 +1407,14 @@ pre[class*="language-"] {
 </ul>
 <hr>
 <h2 class="atx" id="8-动量优化方法（adam、adamw-等）">8. 动量优化方法（Adam、AdamW 等）</h2>
-<p>▶️ 推荐视频：</p>
+<p>▶️<strong>推荐视频：</strong></p>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1r64y1s7fU/?spm_id_from=333.337.search-card.all.click">“随机梯度下降、牛顿法、动量法、Nesterov、AdaGrad、RMSprop、Adam”，打包理解对梯度下降法的优化</a></li>
+</ul>
+<p><strong>🎨 可视化学习资源</strong>：</p>
+<ul>
+<li>AI 优化器可视化：直观对比 SGD、Momentum、RMSProp、Adam 收敛轨迹，3D 损失曲面直观展示：<a href="https://www.101ai.net/deeplearn/optimizer">Optimizers</a></li>
+<li>特点：自带定制损失函数的 3D 曲面，实时查看不同优化器的下降路径，对比效果直观</li>
 </ul>
 <h3 class="atx" id="核心思想">核心思想</h3>
 <p>动量优化方法引入<strong>历史梯度信息</strong>，加速收敛并减少震荡。</p>
